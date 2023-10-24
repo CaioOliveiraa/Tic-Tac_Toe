@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: #212121;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color:azure;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.x{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.x:after{
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.inv{
+    display: none;
+}
